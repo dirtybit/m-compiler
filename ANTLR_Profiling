@@ -1,0 +1,113 @@
+ANTLR Parser Generator 3.1.3 Mar 18, 2009 10:09:25.
+Using project classpath: Yes.
+Grammar: /home/sertac/workspace/compiler/M-Compiler/src/mcompiler/M.g
+ANTLR Grammar Report; Stats Version 4
+Grammar: M
+Type: combined
+Target language: Java
+Output: AST
+Grammar option k: 1
+Grammar option backtrack: false
+Rules: 25
+Productions: 48
+Decisions: 29
+Cyclic DFA decisions: 0
+LL(1) decisions: 6
+Min fixed k: -1
+Max fixed k: 2
+Average fixed k: 0.0
+Standard deviation of fixed k: 1.0690449676496976
+Min acyclic DFA states: 3
+Max acyclic DFA states: 24
+Average acyclic DFA states: 5.655172413793103
+Standard deviation of acyclic DFA states: 5.300106886179383
+Total acyclic DFA states: 164
+Min cyclic DFA states: 0
+Max cyclic DFA states: 0
+Average cyclic DFA states: 0.0
+Standard deviation of cyclic DFA states: 0.0
+Total cyclic DFA states: 0
+Vocabulary size: 68
+DFA creation time in ms: 44
+Number of semantic predicates found: 0
+Number of manual fixed lookahead k=value options: 1
+Number of nondeterministic decisions: 3
+Number of nondeterministic decisions resolved with predicates: 3
+Number of DFA conversions terminated early: 0
+Number of errors: 0
+Number of warnings: 0
+Number of infos: 0
+Number of syntactic predicates found: 3
+Decisions with syntactic predicates: 3
+Decision DFAs using syntactic predicates: 3
+Decisions with semantic predicates: 0
+Decision DFAs using semantic predicates: 0
+
+Backtracking report:
+Number of decisions that backtrack: 3
+Rule forar_stmt decision 26 location 207:18
+Rule stmt decision 28 location 217:5
+Rule bool decision 20 location 186:14
+
+NFA conversion early termination report:
+Number of NFA conversions that terminated early: 0
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+ANTLR Parser Generator 3.1.3 Mar 18, 2009 10:09:25.
+Using project classpath: Yes.
+Grammar: /home/sertac/workspace/compiler/M-Compiler/src/mcompiler/MTree.g
+ANTLR Grammar Report; Stats Version 4
+Grammar: MTree
+Type: tree
+Target language: Java
+Output: none
+Grammar option k: none
+Grammar option backtrack: false
+Rules: 19
+Productions: 33
+Decisions: 19
+Cyclic DFA decisions: 0
+LL(1) decisions: 2
+Min fixed k: -1
+Max fixed k: 4
+Average fixed k: 0.0
+Standard deviation of fixed k: 1.3743685418725535
+Min acyclic DFA states: 0
+Max acyclic DFA states: 8
+Average acyclic DFA states: 0.7368421052631579
+Standard deviation of acyclic DFA states: 1.995609215340237
+Total acyclic DFA states: 14
+Min cyclic DFA states: 0
+Max cyclic DFA states: 0
+Average cyclic DFA states: 0.0
+Standard deviation of cyclic DFA states: 0.0
+Total cyclic DFA states: 0
+Vocabulary size: 68
+DFA creation time in ms: 20
+Number of semantic predicates found: 0
+Number of manual fixed lookahead k=value options: 1
+Number of nondeterministic decisions: 0
+Number of nondeterministic decisions resolved with predicates: 0
+Number of DFA conversions terminated early: 0
+Number of errors: 0
+Number of warnings: 0
+Number of infos: 0
+Number of syntactic predicates found: 1
+Decisions with syntactic predicates: 1
+Decision DFAs using syntactic predicates: 1
+Decisions with semantic predicates: 0
+Decision DFAs using semantic predicates: 0
+
+Backtracking report:
+Number of decisions that backtrack: 1
+Rule forar_stmt decision 15 location 990:2
+
+NFA conversion early termination report:
+Number of NFA conversions that terminated early: 0
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+

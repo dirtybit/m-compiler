@@ -1,0 +1,54 @@
+CENG444 M Language Compiler Project
+Group members:
+	1559848 - Merih AKAR
+	1560457 - Sertac Olgunsoylu
+
+Profiling:
+*** For M.g grammar, average k = 1.0690449676496976
+*** For MTree.g grammar, average k = 1.3743685418725535
+Detailed profiling information can be found in file 'ANTLR_Profiling'
+
+Building:
+You can build the project by writing 'make build' to the terminal.
+
+Usage:
+You can run the project by using 'run.sh' script.
+Run script takes two arguments, the letter is optional.
+First argument is for filename to be compiled.
+Second argument is optional and prints symbol table. To print symbol table
+writing '-printSymbolTable' is enough.
+
+Example Usage:
+user@computer:~/444phase2$ make build
+user@computer:~/444phase2$ ./run.sh file.m -printSymbolTable
+
+Extensions to M Language:
+1) In array assignment, different sized arrays are supported (gives warning). 
+	The assignment is done until the size of array with least size.
+	It is also supported for given array arguments.
+2) In functions, if formal parameter's type and actual's type can be convertible, they are converted to formal's type.
+3) More than four parameters to functions is supported.
+
+
+Assumptions about M Language:
+1) We support C-like statements by using semicolon as delimiter.
+	For example,
+	While 'x+3+2*f(1)' is an expression, 'x+3+2*f(1);' is a statement in our implementation.
+	
+2) In group variable declarations, identifiers must be seperated by whitespace.
+	For example,
+	var int { a b c} is a valid declaration.
+	var int { a, b, c} is not valid.
+We did this because, It is clearly defined in m-spec that identifiers must be seperated with whitespace.
+Since there are contradictory statements about this issue, we felt necessity to explain it.
+
+3) Our array declarations are C-like, not as stated in some of the newsgroup posts.
+	For example,
+	var array int a[12]; is a valid declaration.
+	var array int[12] a; is not valid.
+
+
+
+	
+
+
